@@ -8,7 +8,8 @@ import (
 
 const ProductResourceMountPoint = "/products"
 
-type ProductResource struct{}
+type ProductResource struct {
+}
 
 // Routes handle router configuration for product
 func (rs ProductResource) Routes() chi.Router {
